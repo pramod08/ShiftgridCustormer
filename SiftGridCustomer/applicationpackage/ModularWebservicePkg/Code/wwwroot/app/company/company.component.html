@@ -1,0 +1,28 @@
+<div align="center" style="color:white; margin-top: 10%;" [hidden]="!showSigninPage">
+    <img src="images/logo.png" height="100" width="150">
+     <h1>WELCOME</h1>
+    <div *ngIf="invalidCompany">
+        <h4>
+            We couldn't find your company. If you can't remember <br>your company's domain, we can
+            <a href="#"> send you a reminder </a><br>Would you like to try again?
+        </h4>
+    </div>
+    <br>
+    <h4>Please enter your company's SiftGrid domain</h4>
+    <br>
+    <form>
+        <h2>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" class="companyInput" style="width: 250px;height: 30px" placeholder="Company Name" value= {{browserUrl}} #companyName />
+            .siftgrid.com
+            <br>
+            <button type="button" class="btn btn-outline-primary" (click)="checkCompanyName(companyName.value); ">Continue</button>
+        </h2>
+    </form>
+    <br>
+    <h5>Can't remember your company's domain?<a  (click)="findcompany()"> Find Your Company</a></h5>
+
+</div>
+<!--<div style="color:white" [hidden]="showSigninPage">    
+    <router-outlet></router-outlet>
+</div>-->

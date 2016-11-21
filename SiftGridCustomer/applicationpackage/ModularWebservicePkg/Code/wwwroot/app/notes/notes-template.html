@@ -1,0 +1,33 @@
+﻿<div id="NotesChatPane">
+       <button style="background-color:#303030; border-color:#303030; color:white">NOTES</button>
+    <button style="background-color:#2ECC71;border-color:#4cff00;" (click)="createTextArea()">
+            <span class="glyphicon glyphicon-plus"></span>
+    </button>
+        <div id="body" class="scrollbar" >
+            <div id="noteid" style="display:none;">
+                <textarea id="NotesArea" style="color:white;" rows="6" cols="25"></textarea>
+                <button class="btn btn-info btn-sm" style="border-color:#4cff00;" (click)="saveNotes()"><span class="glyphicon glyphicon-save"></span>save</button>
+                <button (click)="CancelNote()" style="background-color:#303030;">cancel</button>
+            </div>
+            <div *ngFor="let noteData of notesData; let i=index">
+                <div (mouseover)="MouseOver(i, $event)" (mouseleave)="MouseLeave(i,$event)">
+                    <textarea id={{noteData.noteId}} style="z-index:-1; background-color:grey;border-color:#4cff00;color:white;" rows="6" cols="25" disabled>{{noteData.noteJson}}</textarea>
+
+                    <div  id={{i}} style="margin-left:4px;display:none;">
+                            <button class="btn btn-info btn-sm" style="border-color:#4cff00;" (click)="editNote(noteData.noteId)"><span class="glyphicon glyphicon-pencil"></span></button>
+                    
+                       
+                            <button class="btn btn-info btn-sm" style="border-color:#4cff00;" (click)="updateNote(noteData.noteId)"><span class="glyphicon glyphicon-save"></span></button>
+                        
+                        
+                            <button class="btn btn-info btn-sm" style="border-color:#4cff00;" (click)="DeleteNote(noteData.noteId)"><span class="glyphicon glyphicon-trash"></span></button>
+
+                        
+                            <button class="btn btn-info btn-sm" style="border-color:#4cff00;" (click)="FlagNote(noteData.noteId)"><span class="glyphicon glyphicon-flag"></span></button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+

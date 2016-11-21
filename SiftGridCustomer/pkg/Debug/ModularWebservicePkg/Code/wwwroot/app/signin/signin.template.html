@@ -1,0 +1,22 @@
+<div  align="center" style="color:white; margin-top: 10%; font-size:larger;">
+    <div  align="center"> <img src="images/logo.png" height="100" width="150"></div>
+    <br>
+    <h1>Please enter your email address and password</h1>
+    <br>
+    <form>
+        <input type="email" name="email" class="companyInput" style="width: 250px;height: 30px" placeholder="you@yourcompanydomain.com" #email />
+        <br>
+        <br>
+        <input type="password" name="password" class="companyInput" style="width: 250px;height: 30px" placeholder="Password" #password />
+        <br>
+        <br>
+        <button type="button" class="btn btn-outline-primary" (click)="checkLogin(email.value,password.value)">Continue</button>
+        <br>
+        <br>
+        <input type="checkbox" style="width: 250px;height: 30px" name="signedin" value="signedin"> keep  me   signed  in<br>
+    </form>
+    <br>
+    <h5><a href="#" routerLink="/resetpassword">I forget my password</a></h5>
+    <!--<br>
+    <h4><i>access</i> EVERYTHINGS <i>from</i> ANYWHERE, ALL THE TIME</h4>-->
+</div>

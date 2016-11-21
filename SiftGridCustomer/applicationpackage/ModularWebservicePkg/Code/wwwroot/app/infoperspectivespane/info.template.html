@@ -1,0 +1,21 @@
+<div id="info">
+
+    <button style="background-color:#303030; border-color:#303030; color:white">INFO</button>
+    <div id="body" class="scrollbar" *ngIf="infoProperties" style="width:210px; height:390px; ">
+        <div class="container">
+            <div *ngFor="let key of array;let i=index; ">
+                <div *ngIf = "fieldColor[infoProperties['LocationId']]">
+                    <div *ngIf="fieldColor[infoProperties['LocationId']][key]" >
+                        <label [style.color]="fieldColor[infoProperties['LocationId']][key]">{{key}}</label>
+                        <input type="text" [style.border-color]="fieldColor[infoProperties['LocationId']][key]"  (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                    </div>
+                    <div *ngIf="!fieldColor[key]">
+                        <label >{{key}}</label>
+                        <input type="text" size="6" (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

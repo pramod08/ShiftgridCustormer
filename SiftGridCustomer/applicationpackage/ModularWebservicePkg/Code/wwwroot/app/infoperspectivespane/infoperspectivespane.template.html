@@ -1,0 +1,51 @@
+<div id="InfoPerspectivesPane" class="scrollbar"   style="z-index:500;color:white" >
+        <button style="background-color:#303030; border-color:#303030; color:white">INFO</button>
+        <div  id="body" *ngIf="infoProperties">
+                <div *ngFor="let key of array;let i=index; ">
+                    <div *ngIf="fieldColor[infoProperties['LocationId']]">
+                        <div *ngIf="fieldColor[infoProperties['LocationId']][key]">
+                            <!--<div>
+                                <label [style.color]="fieldColor[infoProperties['LocationId']][key]">{{key}}</label>
+                                <input type="text" [style.border-color]="fieldColor[infoProperties['LocationId']][key]" (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                            </div>-->
+                            <div class="col-md-12 col-sm-12">
+                                <div class="col-md-4 col-sm-4">
+                                    <label [style.color]="fieldColor[infoProperties['LocationId']][key]">{{key}}</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <input type="text" [style.border-color]="fieldColor[infoProperties['LocationId']][key]" (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="!fieldColor[infoProperties['LocationId']][key]">
+                            <!--<div>
+                                <label>{{key}}</label>
+                                <input type="text"  (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                            </div>-->
+                            <div class="col-md-12 col-sm-12">
+                                <div class="col-md-4 col-sm-4">
+                                    <label>{{key}}</label>
+                                </div>
+                                <div class="col-md-8 col-sm-8">
+                                    <input type="text" size="6" (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="!fieldColor[infoProperties['LocationId']]">
+                        <!--<div>
+                            <label>{{key}}</label>
+                            <input type="text"  (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                        </div>-->
+                        <div class="col-md-12 col-sm-12">
+                            <div class="col-md-4 col-sm-4">
+                                <label>{{key}}</label>
+                            </div>
+                            <div class="col-md-8 col-sm-8">
+                                <input type="text" size="6" (change)="updateValue($event.target.value,key)" value={{infoProperties[key]}} />
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+</div>

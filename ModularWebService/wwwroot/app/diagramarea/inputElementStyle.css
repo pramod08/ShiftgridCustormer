@@ -1,0 +1,71 @@
+﻿
+
+/*input[type=text], select {
+    width: 100%;
+    padding: 4px 9px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}*/
+#wrapper {
+            float: left;
+            margin: 0 20px 0 0;
+        }
+ #tabs {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+            #tabs li {
+                float: left;
+                display: block;
+                padding: 5px;
+                background-color: #bbb;
+                margin-right: 5px;
+            }
+
+                #tabs li a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                #tabs li.current {
+                    background-color: #e1e1e1;
+                }
+
+                    #tabs li.current a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+
+                #tabs li a.remove {
+                    color: #f00;
+                    margin-left: 10px;
+                }
+                
+                
+                
+       /*#content {
+            background-color: #e1e1e1;
+        }
+
+            #content p {
+                margin: 0;
+                padding: 20px 20px 100px 20px;
+            }
+
+        #main {
+            width: 900px;
+            margin: 0px auto;
+            overflow: hidden;
+            background-color: #F6F6F6;
+            margin-top: 20px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            padding: 30px;
+        }*/
+

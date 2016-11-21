@@ -1,0 +1,9 @@
+<input id="HeaderSeachbox" type="text" style="background-color:white; color:black" placeholder="Search.." [(ngModel)]="query" />
+<div class="SuggestionSeachbox" style="z-index:500;">
+        <div class="suggestions" *ngIf="filteredList.length > 0" style="color:white;background-color:#333333">
+            <ul *ngFor="let item of filteredList">
+                <li><a (click)="select(item.Name)">{{item.Name}}</a></li>
+            </ul>
+        </div>
+</div>
+

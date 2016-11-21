@@ -1,0 +1,12 @@
+﻿<div id="profile_search" style="position: absolute; height: 30px;color:white; border: none; top: 20; right:300px; ">
+    <div >
+        <input id="search" type="text" style="background-color:white; color:black"  placeholder="Search.." class="validate filter-input" [(ngModel)]="query">
+    </div>
+    <div class="suggestions" *ngIf="filteredList.length > 0" style="z-index:1">
+        <ul *ngFor="let item of filteredList">
+            <li>
+                <a (click)="select(item.Name)">{{item.Name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div  [hidden]="showAreaPaletteDiagram" class="DiagramArea">
+        <areapalette></areapalette>
+        <div id="AreaDiagram" class="AreaDiagram"> </div>
+</div>
+
+<div [hidden]="showDiagram"  class="DiagramArea">
+    <div id="wrapper"  class="AreaPaneSmall" style="position:absolute">
+        <ul id="tabs"></ul>
+    </div>
+    <div id="diagramDiv" class="AreaDiagram" ></div>
+    <diagram></diagram>
+    <div id="pallet" style="visibility: hidden;">
+        <palette></palette>
+    </div>
+</div>
+<div [hidden]="showPeopleDiagram"  >
+    <div id="peopleDiagram"  class="DiagramArea"></div>
+</div>

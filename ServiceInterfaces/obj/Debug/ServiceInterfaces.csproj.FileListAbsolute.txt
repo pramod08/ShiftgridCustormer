@@ -1,0 +1,63 @@
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceInterfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceInterfaces.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceFabricServiceModel.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.Strings.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\obj\Debug\ServiceInterfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\obj\Debug\ServiceInterfaces.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\DiagramApi.exe
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\EntityFramework.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.Azure.Documents.Client.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\DiagramApi.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\EntityFramework.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.Azure.Documents.Client.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceInterfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceInterfaces.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\DiagramApi.exe
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\ServiceFabricServiceModel.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.Strings.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\EntityFramework.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.Azure.Documents.Client.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Newtonsoft.Json.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\DiagramApi.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\System.Fabric.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\EntityFramework.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\bin\Debug\Microsoft.Azure.Documents.Client.xml
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\obj\Debug\ServiceInterfaces.dll
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\obj\Debug\ServiceInterfaces.pdb
+D:\JP\Modular\VisualStudio\POC\SiftgridCustomer without timemachine\SiftgridCustomer\ServiceInterfaces\obj\Debug\ServiceInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\ServiceInterfaces.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\ServiceInterfaces.pdb
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\ServiceFabricServiceModel.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\System.Fabric.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\System.Fabric.Strings.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.xml
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\Microsoft.ServiceFabric.Services.xml
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\bin\Debug\System.Fabric.xml
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\obj\Debug\ServiceInterfaces.dll
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\obj\Debug\ServiceInterfaces.pdb
+C:\Users\siftgrid\.jenkins\workspace\SiftGridCustomerAppExposure\ServiceInterfaces\obj\Debug\ServiceInterfaces.csprojResolveAssemblyReference.cache

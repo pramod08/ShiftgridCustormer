@@ -1,0 +1,22 @@
+<div id="FooterPane" class="scrollbar" >
+            <table *ngIf="JsonId" class="table ErrorTable ">
+                <thead>
+                    <tr>
+                        <th>Missing Info</th>
+                        <th>Object Type</th>
+                        <th>Location</th>
+                        <th>ContentType</th>
+                        <th>ValidationType</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let entryKey of JsonId">
+                        <td>{{entryKey.Missing_Field}}</td>
+                        <td>{{entryKey.Type}}</td>
+                        <td>{{entryKey.LocationId}}</td>
+                        <td>{{entryKey.ContentType}}</td>
+                        <td>{{entryKey.ValidationType}}</td>
+                    </tr>
+                </tbody>
+            </table>
+</div>

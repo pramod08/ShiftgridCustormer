@@ -1,0 +1,27 @@
+﻿   .suggestions{
+	border:solid 1px #f1f1f1;
+	background: white;
+}
+
+.suggestions ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.suggestions ul li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.suggestions ul li a{
+	padding:5px;
+	display: block;
+	text-decoration: none;
+	color:white;
+}
+
+.suggestions ul li a:hover{
+	background-color: #f1f1f1;
+}

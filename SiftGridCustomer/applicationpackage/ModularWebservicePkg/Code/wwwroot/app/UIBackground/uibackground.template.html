@@ -1,0 +1,28 @@
+<div id="UIBackground" style="background-color:white">
+    <header></header>
+    <leftsidebar></leftsidebar>
+    <div style="position:absolute" [hidden]="showEnterprisePane">
+        <enterprise></enterprise>
+    </div>
+    <div style="position:absolute">
+        <diagramarea></diagramarea>
+    </div>
+    <div style="position:absolute;z-index:500;" [hidden]="showInfoPane">
+        <infoperspectivespane></infoperspectivespane>
+    </div>
+    <div style="position:absolute;z-index:500;" [hidden]="showNotesPane">
+        <notes></notes>
+    </div>
+    <rightsidebar></rightsidebar>
+    <div style="position:absolute;z-index:500;" [hidden]="showDocumentPane">
+        <documentationpane></documentationpane>
+    </div>
+    <div style="position:absolute;z-index:500;" [hidden]="showErrorPane">
+        <errorpane></errorpane>
+    </div>
+    <div style="position:absolute;z-index:500;" [hidden]="showFuelConsumersPane">
+        <fuelconsumerspane></fuelconsumerspane>
+    </div>
+    <footer></footer>
+</div>
+

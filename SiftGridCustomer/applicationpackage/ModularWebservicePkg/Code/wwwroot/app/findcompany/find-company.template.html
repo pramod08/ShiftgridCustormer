@@ -1,0 +1,27 @@
+<div align="center" style="color:white; margin-top: 10%;">
+    <div align="center">
+        <img src="images/logo.png" height="100" width="150">
+    </div>
+    <h1>FIND YOUR COMPANY</h1>
+    <h4>Please enter your email address</h4>
+    <div *ngIf="invalidCompany">
+        <h4>
+            We couldn't find your Email Address. If you can't remember <br>
+            Contact your Administrator support Team...
+        </h4>
+    </div>
+    <br>
+    <form>
+        <input type="email" name="email" class="companyInput" style="width: 250px;height: 30px" placeholder="you@yourcompanydomain.com" #email />
+        <br>
+        <button type="button" class="btn btn-outline-primary" (click)="sendmail(email.value)">Send Me a Sign In Email</button>
+    </form>
+    <br>
+    <h5>We'll send you an email with sign-in links for the SiftGrid<br> comapny domain associated with the address you enter</h5>
+    <br>
+    <h3>OR</h3>
+    <br>
+    <a href="#">Go back and enter a company</a>
+    <br>
+    <h4><i>access</i> EVERYTHINGS <i>from</i> ANYWHERE, ALL THE TIME</h4>
+</div>

@@ -1,0 +1,17 @@
+    <div  style="color:white">
+        <div *ngIf="!isUserAuthenticated" style="align:right">
+            <img src="app/images/logo.png" height="100" width="150">
+            Please  use you  Active  Dirctory  Admin  Tenant to  SignIn
+            <button (click)="logIn()">Sign In</button>
+        </div>
+       </div>
+       <div  style="color:white">
+            <div *ngIf="isUserAuthenticated">
+                <!-- User is authenticated
+                <button (click)="logOut()">Sign Out</button>
+                <!--<files></files>-->
+                <!--<router-outlet></router-outlet>
+                <!--<resetpassword></resetpassword>-->
+                <!--<findcompany></findcompany>-->
+            </div>
+        </div>

@@ -1,0 +1,25 @@
+<div align="center" style="color:white; margin-top: 10%;">
+    <img src="images/logo.png" height="100" width="150">
+    <div class="col-md-12">
+        <h1>FIND YOUR COMPANY</h1>
+        <br>
+    </div>
+    <div>
+        <h3>A reminder has been sent</h3>
+        <br>
+        <h4>
+            If we found a SiftGrid user associated with (email address),<br> you will receive an email from us shortly<br>
+            If you do not receive an email,you can<br> <a href="#">try another email address</a> or contact<br>your company administrator
+        </h4>
+    </div>
+    <div *ngIf="invalidCompany">
+        <h4>
+            We couldn't find your Email Address. If you can't remember <br>
+            Contact your Administrator support Team...
+        </h4>
+    </div>
+    <form>
+        <div><input type="text" placeholder="you@yourcompanydomain.com" style="background-color:#303030;" #email /></div>
+        <button type="button" class="btn btn-outline-primary" (click)="sendmail(email.value)">Send Me a Sign In Email</button>
+    </form>
+</div>
