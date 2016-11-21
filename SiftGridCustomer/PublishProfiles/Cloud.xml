@@ -21,7 +21,7 @@
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
   <!--<ClusterConnectionParameters ConnectionEndpoint="dev3.centralus.cloudapp.azure.com:19000" />-->
-  <ClusterConnectionParameters ConnectionEndpoint="dev3.centralus.cloudapp.azure.com:19000" />
+  <ClusterConnectionParameters ConnectionEndpoint="test1.canadacentral.cloudapp.azure.com:19000" />
 
   
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
